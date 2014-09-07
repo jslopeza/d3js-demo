@@ -53,7 +53,7 @@ window.onload = function(){
 			});
 	}
 
-	d3.json("monthlySales.json", function(error, data){
+	d3.json("MonthlySales.json", function(error, data){
 
 		if(error){
 			console.log(error);

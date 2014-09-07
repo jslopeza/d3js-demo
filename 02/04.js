@@ -29,7 +29,7 @@ window.onload = function(){
 			.text(ds.category + " Sales (2013)");
 	}
 
-	d3.json("monthlySalesbyCategoryMultiple.json", function(error, data){
+	d3.json("MonthlySalesbyCategoryMultiple.json", function(error, data){
 
 		if(error){
 			console.log(error);
